@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .margin {
+            margin: 5px 2px;
+        }
+
+        .div-style1 {
+            border: 2px solid blue;
+            background-color: darkturquoise;
+            width: 448px;
+            height: 150px;
+        }
+
+        .div-style2 {
+            border-top: red solid;
+            width: 700px;
+        }
+
+        button {
+            background-color: blue;
+            color: aliceblue;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+    <h1>تماس با دیجی کالا</h1>
+    <p> کاربر گرامی لطفا در صورت هر گونه یا ابهامی با تماس تلفنی با دیجی کالا بخش <u style="color: aqua;">پرسش های
+            متداول</u></p>
+    <center>
+        <hr width="700">
+    </center><br><br>
+    <p>برای پیگیری فرم زیر را پر کنید</p><br><br>
+    <label for="firstName" class="margin">
+        نام خانوادگی<span style="color: red;">*</span>
+        <input type="text" style="height: 25px;" readonly value="kfdkfja" class="margin"><br>
+        <label for="email">
+            ایمیل<span style="color: red;">*</span>
+            <input type="text" style="height: 25px; margin-right: 42px;" placeholder="email@gmail.com" dir="ltr">
+        </label><br>
+        <label for="phoneNumber">
+            تلفن همراه<span style="color: red;">*</span>
+            <input type="text" style="height: 25px; margin-right: 14px;" class="margin">
+        </label><br>
+        <label for="subject">
+            موضوع<span style="color: red;">*</span>
+            <select name="subject" id="subject" class="margin" style="margin-right: 20px;height: 30px; width: 175px;">
+                <option value="enter">.انتخاب کنید...</option>
+            </select>
+        </label><br>
+        <label for="orderNumber" style="font-size: 15px;">
+            شماره سفارش<span style="color: red;">*</span>
+            <input type="text" style="height: 25px;" dir="ltr" value="dgdg" readonly class="margin">
+        </label><br>
+        <label for="messageText" style="font-size: 15px;">
+            متن پیام<span style="color: red;">*</span>
+            <input type="text" style="height: 25px; margin-right: 32px;" size="50" dir="ltr" value="dgdg" readonly
+                class="margin">
+        </label><br>
+        <div class="div-style1">
+            <br>
+            <center>
+                <p>عکس یا ویدیو خود را جهت آپلود انتخاب کنید</p>
+            </center><br><br>
+            <input type="file" class="margin">
+        </div><br>
+        <button type="submit">تایید درخواست</button> <br><br>
+        <div class="div-style2"></div>
+        <!-- <hr width="700" dir="rtl" color="red"> -->
+
+</body>
+
+</html>
