@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+}
+.menu {
+  display: flex;
+  justify-content: end;
+}
+.menu li {
+  margin: 0 30px;
+  list-style: none;
+  color: #999a9c;
+  text-transform: uppercase;
+}
+.div-header-main {
+  background-color: #4d5063;
+  width: 100%;
+  height: inherit;
+}
+body {
+  background-color: #4d5063;
+}
+.header-div-size-image {
+  width: auto;
+  height: 75px;
+  margin: 0 30px;
+}
+.header-div-img {
+  justify-content: start;
+}
+.main-div-image-tesla {
+  width: 100%;
+  height: 570px;
+}
+.main-image-tesla {
+  position: absolute;
+}
+.main-image-hero {
+  position: absolute;
+  top: 425px;
+}
+.main-image-hero-size{
+  width: 100%;
+  height: auto;
+}
+
